@@ -1,0 +1,145 @@
+
+
+ body {
+   font-family: serif;
+ }
+
+ header {
+   background: #DCDCDC;
+   overflow: hidden;
+ }
+
+ label {
+   display: block;
+ }
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+    list-style: none;
+    margin:0;
+    padding: 30px;
+}
+
+li {
+    display: inline-block;
+    float: right;
+
+}
+
+li a {
+    display: inline-block;
+    min-width: 75px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer {
+  width: 100%;
+  background: #DCDCDC;
+  padding: 60px 0px;
+}
+
+#twitter{
+
+}
+
+#facebook {
+
+}
+
+ #name {
+   font-family: 'Cinzel', serif;
+   font-size: 30px;
+   display: inline-block;
+   float: left;
+   padding-left: 10px;
+   color: #0C3D09;
+ }
+
+ #row_container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 80%;
+   height: 500px;
+   margin: 50px;;
+   padding: 50px;
+ }
+
+ #bio {
+   flex-direction: row;
+   font-size: 20px;
+ }
+
+ #books {
+   display: flex;
+   justify-content: center;
+   padding: 50px;
+ }
+
+ #icons {
+   display: flex;
+   justify-content: center;
+ }
+
+ #author_photo {
+   flex-direction: row;
+   max-width: 30vh;
+   min-width: 30vh;
+   margin-right: 3rem;
+   padding: 30px;
+ }
+
+ #banner {
+   background-image: url(../images/camillebanner.png);
+   background-color: #000000;
+   background-position: 100% 100%;
+   background-repeat: no-repeat;
+   height: 550px;
+   clear: both;
+ }
+
+
+#story {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+#FAQ {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+/*media queries below*/
+
+@media (max-width: 360px) {
+    /*#phone {
+      display: block;
+    }*/
+
+    #banner {
+      height: 70px;
+    }
+
+    li a {
+      display: block;
+    }
+
+}
